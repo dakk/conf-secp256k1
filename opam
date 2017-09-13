@@ -1,0 +1,19 @@
+opam-version: "1.2"
+name: "conf-secp256k1"
+maintainer: "Davide Gessa <gessadavide@gmail.com>"
+authors: [
+	"Davide Gessa <gessadavide@gmail.com>"
+]
+dev-repo: "https://github.com/dakk/conf-secp256k1"
+bug-reports: "https://github.com/dakk/conf-secp256k1/issues"
+version: "1.0.0"
+homepage: "https://github.com/dakk/conf-secp256k1"
+license: "MIT"
+build: [
+]
+depexts: [
+  [["debian"] ["libsecp256k1-dev" "libsecp256k1-0"]]
+  [["ubuntu"] ["libsecp256k1-dev" "libsecp256k1-0"]]
+  [["gentoo"] ["dev-libs/libsecp256k1"]]
+  [["osx" "homebrew"] ["secp256k1"]]
+]
